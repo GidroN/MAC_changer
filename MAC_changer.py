@@ -51,7 +51,7 @@ def main():
 	options = get_arguments()
 	if find_mac(options.interface) == options.new_mac:
 		parser = optparse.OptionParser()
-		parser.error("[-] You already has this MAC address.")
+		parser.error("[-] You already have this MAC address.")
 	else:
 		change_mac(options.interface, options.new_mac)
 
