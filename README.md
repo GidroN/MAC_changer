@@ -27,4 +27,5 @@ Run the script in your terminal with parameters which you can find below.
 > EXAMPLE: `python3 MAC_changer.py -i eth0 -t 1m`
 ![enter image description here](https://i.imgur.com/K0toiCd.png)
 > ![enter image description here](https://i.imgur.com/tB6EgPx.png)
-
+## Help
+For more information you can use: `python3 MAC_changer.py --help`
